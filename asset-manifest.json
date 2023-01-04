@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-todo-list/static/css/main.80754bc1.css",
-    "main.js": "/react-todo-list/static/js/main.6edbc2a2.js",
+    "main.js": "/react-todo-list/static/js/main.4a156cab.js",
     "static/media/poppins-all-400-normal.woff": "/react-todo-list/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
     "static/media/poppins-all-600-normal.woff": "/react-todo-list/static/media/poppins-all-600-normal.ef66d5cebf31c6a23603.woff",
     "static/media/poppins-all-500-normal.woff": "/react-todo-list/static/media/poppins-all-500-normal.4716bc1dd9f51751d3ef.woff",
@@ -20,10 +20,10 @@
     "static/media/poppins-latin-ext-700-normal.woff2": "/react-todo-list/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
     "index.html": "/react-todo-list/index.html",
     "main.80754bc1.css.map": "/react-todo-list/static/css/main.80754bc1.css.map",
-    "main.6edbc2a2.js.map": "/react-todo-list/static/js/main.6edbc2a2.js.map"
+    "main.4a156cab.js.map": "/react-todo-list/static/js/main.4a156cab.js.map"
   },
   "entrypoints": [
     "static/css/main.80754bc1.css",
-    "static/js/main.6edbc2a2.js"
+    "static/js/main.4a156cab.js"
   ]
 }
