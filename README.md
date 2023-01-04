@@ -3,6 +3,7 @@
 # Todo List App
 
 A Todo List Application with almost complete feutures
+
 **Live demo: [https://naufal18-bot.github.io/react-todo-list/](https://naufal18-bot.github.io/react-todo-list/)**
 
 ## Project Description
@@ -30,7 +31,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 - [React](https://reactjs.org)
 - [Bootstrap 5.2](https://getbootstrap.com)
-- [Font Awesome](https://fontawesome.com)
+- [Fontawesome 6.2](https://fontawesome.com)
 
 ## Thanks To
 
