@@ -7,6 +7,7 @@ import AddForm from "./components/AddForm";
 import TodoList from "./components/TodoList";
 import EmptyInputToast from "./components/EmptyInputToast";
 import AddSuccessToast from "./components/AddSuccessToast";
+import DeletedToast from "./components/DeletedToast";
 import UpdateSuccess from "./components/UpdateSuccess";
 import DeleteConfirmToast from "./components/DeleteConfirmToast";
 import EditForm from "./components/EditForm";
@@ -53,7 +54,8 @@ function App() {
   let filteredTodoList = todoList.filter((task) => task.complete === defConf.filter);
 
   const modalTarget = document.getElementById("confirmModal");
-  const modalEdit = document.getElementById("modalEdit")
+  const modalEdit = document.getElementById("modalEdit");
+  const deletedToast = document.getElementById("deleted-toast")
 
   return (
     <div className="container-fluid bg-linear-gradient min-vh-100">
@@ -102,6 +104,7 @@ function App() {
         deleteTask={deleteTask}
         idTask={defConf.idTask}
         modalTarget={modalTarget}
+        deletedToast={deletedToast}
         bs={bootstrap}
       />
 
@@ -116,6 +119,7 @@ function App() {
       <EmptyInputToast />
       <AddSuccessToast />
       <UpdateSuccess />
+      <DeletedToast />
     </div>
   );
 }

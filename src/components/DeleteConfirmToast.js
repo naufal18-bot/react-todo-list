@@ -1,10 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const DeleteConfirmToast = ({ deleteTask, idTask, modalTarget, bs }) => {
+const DeleteConfirmToast = ({ deleteTask, idTask, modalTarget, deletedToast, bs }) => {
   const handleYes = () => {
     deleteTask(idTask);
     const modal = bs.Modal.getInstance(modalTarget);
+    const toast = new bs.Toast(deletedToast);
     modal.hide();
+    toast.show();
   };
   return (
     <div className="modal fade" id="confirmModal" tabIndex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
