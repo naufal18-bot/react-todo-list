@@ -1,0 +1,23 @@
+$primary: #afa24c;
+
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+
+// $input-focus-border-color: tint-color(#afa24c, 50%);
+
+$custom-theme-colors: (
+  "blue": #0d6efd,
+  "dark-gold": #5F5B40
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-linear-gradient{
+  background-image: linear-gradient(to bottom right, #02aab0, #00cdac);
+}
